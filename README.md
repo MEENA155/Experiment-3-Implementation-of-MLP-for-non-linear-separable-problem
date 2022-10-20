@@ -39,8 +39,10 @@ Step 3: Repeat the  iteration  until the losses become constant and
              (v)   Append the losses in a list
 Step 4 : Test for the XOR patterns.
 
-** PROGRAM** 
-/Type your Program here/
+## PROGRAM:
+```
+Registration Number: 212221240028
+Name: Meena .S
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -100,8 +102,14 @@ test=np.array([[1],[0]])
 predict(w1,w2,test)
 test=np.array([[1],[1]])
 predict(w1,w2,test)
+```
+ ## OUTPUT:
+ ### Loss Graph:
+ ![image](https://user-images.githubusercontent.com/94677128/196998059-85f42828-f182-45ec-8bcf-a65b9b616f58.png)
+ ### Input - Output for XOR Gate:
+![image](https://user-images.githubusercontent.com/94677128/196998195-d9f2d18c-e597-4605-918c-80da48cb7957.png)
 
- **OUTPUT** 
- 
 
-** RESULT**
+## RESULT:
+Thus a MLP is implemented for non linear separable problem using Python.
+
